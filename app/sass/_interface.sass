@@ -1,0 +1,41 @@
+@mixin controls($color)
+  &:hover,
+  &:focus,
+  &:active
+    background-color: lighten($color, 20%)
+  &:disabled,
+  &:disabled
+    background-color: $color
+    cursor: default
+    opacity: 0.5
+  
+.button
+  display: inline-block
+  margin-right: 28px
+  padding: 15px 35px
+  font-family: "poppins-medium", Arial, Helvetica, sans-serif
+  color: $color-black
+  background-color: $color-light
+  border-radius: 5px
+  box-shadow: 0 10px 30px rgba(116, 115, 115, 0.23)
+  @include controls ($color-accent)
+  &:last-child
+    margin-right: 0
+  &--accent 
+    color: $color-black
+    background-color: $color-accent
+    @include controls ($color-light)
+  &--link  
+    padding: 0
+    margin: 0
+    background: none
+    color: $color-light
+    box-shadow: none
+    border-radius: 0
+    &:hover,
+    &:focus,
+    &:active,
+    &:disabled,
+    &:disabled
+      background: none
+    

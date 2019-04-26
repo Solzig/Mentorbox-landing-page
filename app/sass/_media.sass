@@ -1,0 +1,81 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : $media-large)
+	.navigation
+		&__site
+			font-size: 16px
+		&-user
+			&__link
+				font-size: 16px	
+	.explore
+		&__item
+			& h3
+				font-size: 20px
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : $media-medium)
+	.explore
+		&__item
+			width: 40vw
+			margin: 25px
+			&:last-child
+				margin: 25px
+			& h3 
+				font-size: 28px
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : $media-small)
+	.row, .navbar
+    flex-direction: column
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : $media-extra)
+	.container
+		padding: 0 20px
+	.explore
+		&__item
+			width: 100vw
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : $media-custom)
+	
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : $media-custom)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : $media-extra)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : $media-small)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : $media-medium)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : $media-large)
+	/**/
+
