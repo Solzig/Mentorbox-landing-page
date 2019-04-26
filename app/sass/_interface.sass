@@ -11,9 +11,13 @@
   
 .button
   display: inline-block
+  max-width: 200px
+  width: 100%
+  text-align: center
   margin-right: 28px
-  padding: 15px 35px
+  padding: 20px 0px
   font-family: "poppins-medium", Arial, Helvetica, sans-serif
+  font-size: 18px
   color: $color-black
   background-color: $color-light
   border-radius: 5px
@@ -21,11 +25,16 @@
   @include controls ($color-accent)
   &:last-child
     margin-right: 0
-  &--accent 
+  &_accent 
     color: $color-black
     background-color: $color-accent
     @include controls ($color-light)
-  &--link  
+  &_sigh-up
+    width: 130px
+    color: $color-black
+    background-color: $color-accent
+    @include controls ($color-light)
+  &_link  
     padding: 0
     margin: 0
     background: none

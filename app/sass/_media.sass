@@ -4,6 +4,7 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : $media-large)
+
 	.navigation
 		&__site
 			font-size: 16px
@@ -14,6 +15,11 @@
 		&__item
 			& h3
 				font-size: 20px
+	.review__text 
+    font-size: 22px
+    line-height: 36px
+    max-width: 80%
+    padding-bottom: 20px			
 	/**/
 
 
@@ -34,16 +40,84 @@
 @media only screen and (max-width : $media-small)
 	.row, .navbar
     flex-direction: column
-	/**/
+	.header__main 
+    flex-direction: column
+	.header__navigation 
+    flex-direction: column
+	.navigation__user.navigation-user 
+    margin: 0 auto
+	.hero 
+    position: relative
+    width: 100%
+    max-width: 1440px
+    padding: 0 20px
+    margin-bottom: 70px
+    margin-top: 95px
+	.hero h1 
+    font-size: 54px
+	.hero__content 
+    font-size: 20px
+    padding-right: 20%
+	.hero__image 
+    zoom: 50%
+    top: 130px
+	.navigation__site
+		padding: 24px 0
+	.offer__item 
+    flex-direction: column
+	.offer__text
+    padding-bottom: 50px
+    text-align: center
+	.footer__navigation
+    flex-direction: column
+    padding: 35px 0	
+	.social__list
+		margin: 0
+		padding-top: 15px
+		/**/
 
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : $media-extra)
-	.container
-		padding: 0 20px
+
+	.header__navigation
+    padding-bottom: 0px
+	.navigation__site 
+    flex-direction: column
+    justify-content: center
+	.navigation__item
+		margin: 10px
+		text-align: center
+	.navigation__item:last-child
+		margin: 10px	
+	.hero h1
+    font-size: 40px
+    line-height: 40px
+    padding-bottom: 20px
+	.hero 
+    padding: 0
+	.hero__content 
+    font-size: 20px
+    line-height: 32px	
+	.hero__image
+		display: none	
 	.explore
 		&__item
 			width: 100vw
+	.review__autor
+    font-size: 26px
+    text-align: center
+    margin: 25px 0
+	.review__text 
+    font-size: 16px
+    line-height: 26px
+    max-width: 50vw
+    margin-bottom: 30px	
+	.review__controls
+    padding: 0 15px	
+	.offer__text
+    font-size: 26px
+    line-height: 42px	
 	/**/
 
 
