@@ -3,33 +3,38 @@
     display: flex
     justify-content: space-around
     padding: 0
-    padding-left: 70px
+    padding-left: 73px
     list-style: none
     font-size: 18px
     font-family: "poppins-medium", Arial, Helvetica, sans-serif
   &__item
-    margin-right: 32px
     display: block
+    margin-right: 37px
     vertical-align: middle
     >a
       &:hover
-        border-bottom: 2px solid $color-light
+        border-bottom: 2px solid
+        border-color: initial
     &:last-child
       margin-right: 0
   &__user
     display: flex
     justify-content: space-between
     align-items: center
-    padding: 0
     margin: 0
     margin-left: auto
+    padding: 0
   &-user
     &__link
+      position: relative
+      margin-right: 30px
       list-style: none
       font-size: 18px
       font-family: "poppins-medium", Arial, Helvetica, sans-serif
-      margin-right: 36px
       &:last-child
         margin-right: 0
+      > .button_sigh-up
+          position: relative
+          left: 8px
       &--button
         background-color: $color-accent

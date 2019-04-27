@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1,0">
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<title>Page Title</title>
+	<title>Mentorbox</title>
 </head>
 <body>
-<header class="header__main">
+<header class="site-header__main">
 	<div class="container">
-		<nav class="header__navigation">
-			<div class="header__logo">Mentorbox</div>
+		<nav class="site-header__navigation">
+			<div class="site-header__logo">Mentorbox</div>
 			<ul class="navigation__site">
 				<li class="navigation__item"><a href="">How It Works</a></li>
 				<li class="navigation__item"><a href="">About Us</a></li>
@@ -28,7 +28,7 @@
 			<section class="hero">
 				<div class="hero__item">
 						<h1 class="hero__title">Learn From The Best</h1>
-						<img class="hero__image" src="../img/phone_mockup.png" alt="smartphone" width="584"	height="710">
+						<img class="hero__image" src="../img/phone_mockup.png" alt="smartphone" width="624"	height="750">
 						<div class="hero__content">Mentorbox connects you with the leading experts in your chosen field. 
 							Quickly find and learn from over 200 carefully selected mentors.
 						</div>
@@ -38,62 +38,72 @@
 			</section>
 		</div>
 </header>
-<!-- /.main-header -->
-<main>
+<!-- /.site-header__main -->
+<main class="site-main">
 		<section class="section__row">
 			<div class="container">
 				<div class="second__wrapper">
-						<h2>The smarter way to learn, connect with the best.</h2>
+						<h2 class="second__title">The smarter way to learn, connect with the best.</h2>
 						<p>Everybody needs guidance, and reaching the top levels of any career requires constant education and personal development. Mentorbox connects you with the top performing experts in your field. You then book one-on-one or group training with your chosen expert to be carried out online or in-person.</p>
 				</div>
 			</div>
 		</section>
 		<section class="section__row section__row_grey">
 				<div class="container">
-					<div class="second__wrapper second__wrapper--explore">
-							<h2>Explore Topics</h2>
+					<div class="second__wrapper second__wrapper_explore">
+							<h2 class="explore__title">Explore Topics</h2>
 							<p>Take a look at some of the most popular areas our students are learning</p>
 					</div>
-					<ul class="explore__list">
-						<li class="explore__item">
-							<img class="img-responsive" src="../img/topic-1.jpg" alt="Cooking" width="295" height="295">
-							<a href="#"><h3>Cooking</h3></a>
-						</li>
-						<li class="explore__item">
-							<img class="img-responsive" src="../img/topic-2.jpg" alt="Programming" width="295" height="295">
-							<a href="#"><h3>Programming</h3></a>
-						</li>
-						<li class="explore__item">
-							<img class="img-responsive" src="../img/topic-3.jpg" alt="Fashion" width="295" height="295">
-							<a href="#"><h3>Fashion</h3></a>
-						</li>
-						<li class="explore__item">
-							<img class="img-responsive" src="../img/topic-4.jpg" alt="Health & Fitness" width="295" height="295">
-							<a href="#"><h3>Health & Fitness</h3></a>
-						</li>
-					</ul>
-					<div class="second__wrapper second__wrapper--explore">
-						<h2>Explore Mentors</h2>
+					<div class="container__wrapper">
+						<ul class="explore__list">
+							<li class="explore__item">
+								<img class="img-responsive" src="../img/topic-1.jpg" alt="Cooking" width="295" height="295">
+								<a href="#"><h3 class="explore__item-title">Cooking</h3></a>
+							</li>
+							<li class="explore__item">
+								<img class="img-responsive" src="../img/topic-2.jpg" alt="Programming" width="295" height="295">
+								<a href="#"><h3 class="explore__item-title">Programming</h3></a>
+							</li>
+							<li class="explore__item">
+								<img class="img-responsive" src="../img/topic-3.jpg" alt="Fashion" width="295" height="295">
+								<a href="#"><h3 class="explore__item-title">Fashion</h3></a>
+							</li>
+							<li class="explore__item">
+								<img class="img-responsive" src="../img/topic-4.jpg" alt="Health & Fitness" width="295" height="295">
+								<a href="#"><h3 class="explore__item-title">Health & Fitness</h3></a>
+							</li>
+						</ul>
+						<div class="slider__controls slider__controls_explore-list">
+								<div class="slider__control slider__control_right slider__control_right_explore-list"></div>
+						</div>			
+					</div>
+					<div class="second__wrapper second__wrapper_explore">
+						<h2 class="explore__title">Explore Mentors</h2>
 						<p>Take a look at some of the most popular mentors currently offering their services</p>
 				</div>
-				<ul class="explore__list">
-					<li class="explore__item">
-						<img class="img-responsive" src="../img/mentor-1.jpg" alt="Todd Hicks" width="295" height="295">
-						<a href="#"><h3>Todd Hicks</h3></a>
-					</li>
-					<li class="explore__item">
-						<img class="img-responsive" src="../img/mentor-2.jpg" alt="Ronald Cole" width="295" height="295">
-						<a href="#"><h3>Ronald Cole</h3></a>
-					</li>
-					<li class="explore__item">
-						<img class="img-responsive" src="../img/mentor-3.jpg" alt="Edith Payne" width="295" height="295">
-						<a href="#"></a><h3>Edith Payne</h3></a>
-					</li>
-					<li class="explore__item">
-						<img class="img-responsive" src="../img/mentor-4.jpg" alt="Edwin Dennis" width="295" height="295">
-						<a href="#"><h3>Edwin Dennis</h3></a>
-					</li>
-				</ul>
+				<div class="container__wrapper">
+						<ul class="explore__list">
+							<li class="explore__item">
+								<img class="img-responsive" src="../img/mentor-1.jpg" alt="Todd Hicks" width="295" height="295">
+								<a href="#"><h3 class="explore__item-title">Todd Hicks</h3></a>
+							</li>
+							<li class="explore__item">
+								<img class="img-responsive" src="../img/mentor-2.jpg" alt="Ronald Cole" width="295" height="295">
+								<a href="#"><h3 class="explore__item-title">Ronald Cole</h3></a>
+							</li>
+							<li class="explore__item">
+								<img class="img-responsive" src="../img/mentor-3.jpg" alt="Edith Payne" width="295" height="295">
+								<a href="#"><h3 class="explore__item-title">Edith Payne</h3></a>
+							</li>
+							<li class="explore__item">
+								<img class="img-responsive" src="../img/mentor-4.jpg" alt="Edwin Dennis" width="295" height="295">
+								<a href="#"><h3 class="explore__item-title">Edwin Dennis</h3></a>
+							</li>
+						</ul>
+						<div class="slider__controls slider__controls_explore-list">
+								<div class="slider__control slider__control_right slider__control_right_explore-list"></div>
+						</div>			
+				</div>
 				</div>
 			</section>
 			<section class="section__row section__row_review">
@@ -110,60 +120,45 @@
 							<li class="review__star"><img src="../img/star.png" alt="star" width="29" height="27"></li>
 							<li class="review__star"><img src="../img/star.png" alt="star" width="29" height="27"></li>
 						</ul>	
-						<div class="review__controls">
-							<div class="review__control review__control_left"></div>
-							<div class="review__control review__control_right"></div>
-						</div>	
+						<div class="slider__controls">
+								<div class="slider__control slider__control_left"></div>
+								<div class="slider__control slider__control_right"></div>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section class="section__row section__row_offer">
 				<div class="container">
 					<div class="offer__item">
-							<div class="offer__text">
+							<h3 class="offer__text">
 									Let’s get learning. Sign up and receive 50% off your first session
-							</div>
-							<a href="#" class="button button_accent">Get Started</a>
+							</h3>
+							<a href="#" class="button button_accent button_big">Lets Get Learning</a>
 					</div>
 				</div>
 			</section>
-			<footer class="footer__main">
-				<div class="container">
-					<nav class="footer__navigation">
-						<div class="footer__logo">Mentorbox</div>
-							<ul class="navigation__site">
-								<li class="navigation__item"><a href="">How It Works</a></li>
-								<li class="navigation__item"><a href="">About Us</a></li>
-								<li class="navigation__item"><a href="">Pricing</a></li>
-								<li class="navigation__item"><a href="">Contact Us</a></li>
-							</ul>
-							<ul class="social__list">
-								<li class="social__item">
-									<a href="#">
-										<i class="fab fa-facebook-f"></i>
-									</a>
-								</li>
-								<li class="social__item">
-									<a href="#">
-										<i class="fab fa-linkedin-in"></i>									
-									</a>
-								</li>
-								<li class="social__item">
-									<a href="#">
-										<i class="fab fa-instagram"></i>
-									</a>
-								</li>
-									<li class="social__item">
-										<a href="#">
-											<i class="fab fa-youtube"></i>
-										</a>
-								</li>
-							</ul>
-						</nav>	
-				</div>
-			</footer>
-			<!-- /.footer__main -->
 </main>
+<footer class="site-footer__main">
+	<div class="container">
+		<nav class="site-footer__navigation">
+			<div class="site-footer__logo">Mentorbox</div>
+			<ul class="navigation__site">
+				<li class="navigation__item"><a href="">How It Works</a></li>
+				<li class="navigation__item"><a href="">About Us</a></li>
+				<li class="navigation__item"><a href="">Pricing</a></li>
+				<li class="navigation__item"><a href="">Contact Us</a></li>
+			</ul>
+			<ul class="social__list">
+				<li class="social__item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li class="social__item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+				<li class="social__item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li class="social__item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</nav>	
+	</div>
+</footer>
+<!-- /.site-footer__main -->
+
 <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 <script src="js/libs.min.js"></script>
 </body>
